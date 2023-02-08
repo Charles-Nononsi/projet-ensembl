@@ -1,0 +1,15 @@
+<div class="register">
+  <div class="connexion">
+    <h1>Register</h1>
+    <form #register="ngForm" (ngSubmit)="connexion(register.value)" class="common-form">
+      <input class="form-input" type="text" ngModel name="first-name" placeholder="Enter first-name" />
+      <input class="form-input" type="text" ngModel name="last-name" placeholder="Enter last-name" />
+      <input class="form-input" type="text" ngModel name="email" placeholder="Enter email" />
+      <input class="form-input" type="password" ngModel name="password" placeholder="Enter password" />
+      <input class="form-input" type="password" ngModel name="confirm password" placeholder="Confirm password" />
+      <input class="form-input" type="password" ngModel name="identification number"
+             placeholder="identification number" />
+      <button class="form-button">Connexion</button>
+    </form>
+  </div>
+</div>

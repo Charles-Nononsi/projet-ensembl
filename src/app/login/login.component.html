@@ -1,0 +1,10 @@
+<div class="login">
+  <div class="connexion">
+    <h1>Login</h1>
+    <form #login="ngForm" (ngSubmit)="connexion(login.value)" class="common-form">
+      <input class="form-input" type="text" ngModel name="email" placeholder="Enter email" />
+      <input class="form-input" type="password" ngModel name="password" placeholder="Enter password" />
+      <button class="form-button">Connexion</button>
+    </form>
+  </div>
+</div>
